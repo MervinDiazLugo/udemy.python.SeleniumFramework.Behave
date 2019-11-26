@@ -1,0 +1,33 @@
+XPATH ABSOLUTOS
+/html[1]/body[1]/nav[1]/div[2]/div[1]/div[3]/ul[1]/li[1]/a[1]
+
+
+(//div[@class='l-signup-body'])//*[contains (@required, 'required')][1]
+
+(//*[@required])[1]
+
+//SELECT[@required]
+
+//INPUT[@required]
+
+//*[contains(Text(), 'Masculino')]
+
+//div[@required]
+
+Contenedor
+//div[@required]
+
+ETIQUETAS
+//LABEL[@required]
+
+TEXT Y CHECKS
+//INPUT[@required]
+
+OPTION BUTON
+//OPTION[@required]
+
+SELECT BOX (DROPDOWN - COMBOBOX)
+//SELECT[@required]
+
+CUALQUIER TIPO DE OBJETO
+//*[@required]

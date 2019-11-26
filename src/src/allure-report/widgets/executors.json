@@ -1,0 +1,10 @@
+[ {
+  "name" : "Jenkins",
+  "type" : "jenkins",
+  "url" : "http://localhost:7000/",
+  "buildOrder" : 10,
+  "buildName" : "udemy.python.SeleniumFramework #10",
+  "buildUrl" : "http://localhost:7000/job/Udemy%20Selenium%20Test/10/",
+  "reportName" : "AllureReport",
+  "reportUrl" : "http://localhost:7000/job/Udemy%20Selenium%20Test/10/allure"
+} ]

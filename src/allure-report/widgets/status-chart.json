@@ -1,0 +1,81 @@
+[ {
+  "uid" : "bb16f14b1cc415cd",
+  "name" : "Abrir con Navegador",
+  "time" : {
+    "start" : 1574741048963,
+    "stop" : 1574741048969,
+    "duration" : 6
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6f540483336a3e29",
+  "name" : "Buscar por texto scroll y waits",
+  "time" : {
+    "start" : 1574741094149,
+    "stop" : 1574741113491,
+    "duration" : 19342
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f41cd7d702bf667",
+  "name" : "Abrir el navegador",
+  "time" : {
+    "start" : 1574741032562,
+    "stop" : 1574741041855,
+    "duration" : 9293
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "861c891488f47e0f",
+  "name" : "Abrir url",
+  "time" : {
+    "start" : 1574741041856,
+    "stop" : 1574741048961,
+    "duration" : 7105
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f581e266695bb93b",
+  "name" : "Dropdowns y textbox",
+  "time" : {
+    "start" : 1574741073502,
+    "stop" : 1574741084238,
+    "duration" : 10736
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "402207c4dacf295d",
+  "name" : "clics Frames y Ventanas",
+  "time" : {
+    "start" : 1574741084239,
+    "stop" : 1574741094148,
+    "duration" : 9909
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3db6803580309fb0",
+  "name" : "Setear el DOM y trabajar con el",
+  "time" : {
+    "start" : 1574741048970,
+    "stop" : 1574741062332,
+    "duration" : 13362
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a70a35eaef5867e",
+  "name" : "Tomar capturas de pantalla",
+  "time" : {
+    "start" : 1574741062333,
+    "stop" : 1574741073500,
+    "duration" : 11167
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

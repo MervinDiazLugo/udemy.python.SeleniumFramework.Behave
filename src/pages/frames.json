@@ -1,0 +1,49 @@
+{
+    "Titulo": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/ol[1]/li[1]/h1[1]"
+  },
+
+  "Frame2": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//iframe[@id='frame2']"
+  },
+
+    "Frame2 Select": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//select[@id='animals']"
+  },
+
+  "Frame1": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//iframe[@id='frame1']"
+  },
+
+  "Frame1 input": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "/html[1]/body[1]/input[1]"
+  },
+
+  "Frame3": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//iframe[@id='frame3']"
+  },
+
+  "Frame3 input": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='a']"
+  },
+
+  "Frame4 Alerta": {
+    "GetFieldBy": "id",
+    "ValueToFind": "iframeResult"
+  },
+
+  "Alert": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "/html[1]/body[1]/button[1]"
+  }
+
+
+
+}

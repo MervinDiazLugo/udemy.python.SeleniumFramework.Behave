@@ -1,0 +1,191 @@
+{
+  "527a9af6439682b9be474691b0c1fcf6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "861c891488f47e0f",
+      "reportUrl" : "http://localhost:7000/job/Python.Selenium.Behave/2/allure/#testresult/861c891488f47e0f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574741041856,
+        "stop" : 1574741048961,
+        "duration" : 7105
+      }
+    }, {
+      "uid" : "9f61952608703598",
+      "reportUrl" : "http://localhost:7000/job/Python.Selenium.Behave/1/allure/#testresult/9f61952608703598",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574740956336,
+        "stop" : 1574740963785,
+        "duration" : 7449
+      }
+    } ]
+  },
+  "c2b09bee9d0183f22b1dcb68f76bb6b5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "bb16f14b1cc415cd",
+      "reportUrl" : "http://localhost:7000/job/Python.Selenium.Behave/2/allure/#testresult/bb16f14b1cc415cd",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n",
+      "time" : {
+        "start" : 1574741048963,
+        "stop" : 1574741048969,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "3c6b5d5aacd8587a",
+      "reportUrl" : "http://localhost:7000/job/Python.Selenium.Behave/1/allure/#testresult/3c6b5d5aacd8587a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n",
+      "time" : {
+        "start" : 1574740963786,
+        "stop" : 1574740963794,
+        "duration" : 8
+      }
+    } ]
+  },
+  "193bb2f7deab8af25e43b55b344c132e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f581e266695bb93b",
+      "reportUrl" : "http://localhost:7000/job/Python.Selenium.Behave/2/allure/#testresult/f581e266695bb93b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574741073502,
+        "stop" : 1574741084238,
+        "duration" : 10736
+      }
+    } ]
+  },
+  "41e267cfc6615141207c5779983d0932" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "402207c4dacf295d",
+      "reportUrl" : "http://localhost:7000/job/Python.Selenium.Behave/2/allure/#testresult/402207c4dacf295d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574741084239,
+        "stop" : 1574741094148,
+        "duration" : 9909
+      }
+    } ]
+  },
+  "479aa6cb7558684e95f19cd23542946d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "f41cd7d702bf667",
+      "reportUrl" : "http://localhost:7000/job/Python.Selenium.Behave/2/allure/#testresult/f41cd7d702bf667",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574741032562,
+        "stop" : 1574741041855,
+        "duration" : 9293
+      }
+    }, {
+      "uid" : "15043d7f3785762a",
+      "reportUrl" : "http://localhost:7000/job/Python.Selenium.Behave/1/allure/#testresult/15043d7f3785762a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574740946754,
+        "stop" : 1574740956335,
+        "duration" : 9581
+      }
+    } ]
+  },
+  "515dff62a820a69b91a7c894ac31216b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6f540483336a3e29",
+      "reportUrl" : "http://localhost:7000/job/Python.Selenium.Behave/2/allure/#testresult/6f540483336a3e29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574741094149,
+        "stop" : 1574741113491,
+        "duration" : 19342
+      }
+    } ]
+  },
+  "9d17a00e4824ef9666bee07407320281" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a70a35eaef5867e",
+      "reportUrl" : "http://localhost:7000/job/Python.Selenium.Behave/2/allure/#testresult/a70a35eaef5867e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574741062333,
+        "stop" : 1574741073500,
+        "duration" : 11167
+      }
+    } ]
+  },
+  "5f898a8f976506248248e8231850a7e3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3db6803580309fb0",
+      "reportUrl" : "http://localhost:7000/job/Python.Selenium.Behave/2/allure/#testresult/3db6803580309fb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574741048970,
+        "stop" : 1574741062332,
+        "duration" : 13362
+      }
+    } ]
+  }
+}

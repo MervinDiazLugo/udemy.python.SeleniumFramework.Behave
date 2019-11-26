@@ -1,0 +1,32 @@
+{
+  "img_Logo": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//*[contains (@id, 'hplogo')]"
+  },
+
+    "txt_busqueda": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@name='q']"
+  },
+
+    "txt_resultStats": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//*[@id='resultStats']"
+  },
+
+    "link_Metallica": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//*[@href='https://www.metallica.com/']//*[contains(text(),'Metallica')]"
+  },
+
+    "link_Maiden": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//h3[contains(text(),'Iron Maiden - Official Website')]"
+  },
+
+    "txt_resultOne": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//*[@id='rso']/div[2]/div"
+  }
+
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="2" hostname="Happy-Testing" name="pytest" skipped="2" tests="10" time="0.067" timestamp="2019-10-08T23:52:31.392781"><testcase classname="tst_001.test_001" file="tst_001.py" line="8" name="test_001" time="0.001"></testcase><testcase classname="tst_001.test_001" file="tst_001.py" line="15" name="test_002" time="0.002"></testcase><testcase classname="tst_001.test_002" file="tst_001.py" line="29" name="test_comparacion" time="0.001"></testcase><testcase classname="tst_002.test_002" file="tst_002.py" line="8" name="test_002" time="0.002"></testcase><testcase classname="tst_002.test_002" file="tst_002.py" line="14" name="test_003" time="0.002"></testcase><testcase classname="tst_002.test_002" file="tst_002.py" line="21" name="test_004" time="0.001"><skipped message="El valor es muy inferior para ejecutar la prueba" type="pytest.skip">tst_002.py:21: El valor es muy inferior para ejecutar la prueba</skipped></testcase><testcase classname="tst_002.test_002" file="tst_002.py" line="36" name="test_005" time="0.000"><failure message="AssertionError: &apos;XXXX&apos; not found in &apos;Bienvenido a la clase de unittest&apos; : No coinciden">self = &lt;src.tests.tst_002.test_002 testMethod=test_005&gt;
+
+    def test_005(self):
+        self.Variable_A = &quot;Bienvenido a la clase de unittest&quot;
+        self.Variable_B = &quot;XXXX&quot;
+    
+&gt;       self.assertIn(self.Variable_B, self.Variable_A, f&quot;No coinciden&quot;)
+E       AssertionError: &apos;XXXX&apos; not found in &apos;Bienvenido a la clase de unittest&apos; : No coinciden
+
+tst_002.py:41: AssertionError</failure></testcase><testcase classname="tst_002.test_002" file="tst_002.py" line="42" name="test_006" time="0.001"><failure message="AssertionError: unexpectedly identical: &apos;Bienvenido a la clase de unittest&apos; : No coinciden">self = &lt;src.tests.tst_002.test_002 testMethod=test_006&gt;
+
+    def test_006(self):
+        self.Variable_A = &quot;Bienvenido a la clase de unittest&quot;
+        self.Variable_B = &quot;Bienvenido a la clase de unittest&quot;
+    
+&gt;       self.assertIsNot(self.Variable_B, self.Variable_A, f&quot;No coinciden&quot;)
+E       AssertionError: unexpectedly identical: &apos;Bienvenido a la clase de unittest&apos; : No coinciden
+
+tst_002.py:47: AssertionError</failure></testcase><testcase classname="tst_003.test_002" file="tst_003.py" line="15" name="test_004" time="0.001"><skipped message="El valor es muy inferior para ejecutar la prueba" type="pytest.skip">D:\udemy.python.SeleniumFramework\src\tests\tst_003.py:20: El valor es muy inferior para ejecutar la prueba</skipped></testcase><testcase classname="tst_003.test_002" file="tst_003.py" line="9" name="test_comparacion" time="0.000"></testcase></testsuite></testsuites>

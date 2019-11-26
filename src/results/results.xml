@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="0" hostname="Happy-Testing" name="pytest" skipped="0" tests="1" time="10.623" timestamp="2019-11-24T02:25:44.248053"><testcase classname="tst_001.test_001" file="tst_001.py" line="9" name="test_001" time="10.203"><system-out>Directorio Base: D:\udemy.python.SeleniumFramework\src
+----------------
+CHROME
+---------------
+Se cerrará  el DRIVER
+</system-out></testcase></testsuite></testsuites>

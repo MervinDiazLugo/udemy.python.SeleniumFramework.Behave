@@ -1,0 +1,193 @@
+{
+  "uid" : "cfb2230b564f16b9",
+  "name" : "test_015",
+  "fullName" : "tests.tst_015.test_015#test_015",
+  "historyId" : "da83afdefa0e1a38390b4912b1ba9dd5",
+  "time" : {
+    "start" : 1574574628881,
+    "stop" : 1574574646758,
+    "duration" : 17877
+  },
+  "description" : "Se requiere visitar el sitio googole:</br>\nDeseamos ingresar texto en el recuadro de busqueda de google </br>\n </br></br>",
+  "descriptionHtml" : "<p>Se requiere visitar el sitio googole:</br>\nDeseamos ingresar texto en el recuadro de busqueda de google </br>\n</br></br></p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup",
+    "time" : {
+      "start" : 1574574628880,
+      "stop" : 1574574628880,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Se requiere visitar el sitio googole:</br>\nDeseamos ingresar texto en el recuadro de busqueda de google </br>\n </br></br>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "PASO 1: Ingresar a Google",
+      "time" : {
+        "start" : 1574574628882,
+        "stop" : 1574574634629,
+        "duration" : 5747
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "PASO 2: Ingresar termino de Busqueda",
+      "time" : {
+        "start" : 1574574634629,
+        "stop" : 1574574644701,
+        "duration" : 10072
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "PASO 3: Cerramos el navegador",
+      "time" : {
+        "start" : 1574574644701,
+        "stop" : 1574574646758,
+        "duration" : 2057
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "b30e59569ba443e",
+      "name" : "stdout",
+      "source" : "b30e59569ba443e.txt",
+      "type" : "text/plain",
+      "size" : 320
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup::0",
+    "time" : {
+      "start" : 1574574646758,
+      "stop" : 1574574646758,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "015: Visitamos google y colocamos una fecha"
+  }, {
+    "name" : "feature",
+    "value" : "Test Udemy 1"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "tst_015"
+  }, {
+    "name" : "subSuite",
+    "value" : "test_015"
+  }, {
+    "name" : "host",
+    "value" : "Happy-Testing"
+  }, {
+    "name" : "thread",
+    "value" : "14932-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.tst_015"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "http://my.tms.org/browse/TESTCASE-39",
+    "url" : "Caso de Prueba 015",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "d274098a29195a15",
+        "reportUrl" : "http://localhost:7000/job/Udemy%20Selenium%20Test/9/allure/#testresult/d274098a29195a15",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574574424700,
+          "stop" : 1574574442764,
+          "duration" : 18064
+        }
+      }, {
+        "uid" : "97f98da9cedac839",
+        "reportUrl" : "http://localhost:7000/job/Udemy%20Selenium%20Test/7/allure/#testresult/97f98da9cedac839",
+        "status" : "broken",
+        "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'send_keys'",
+        "time" : {
+          "start" : 1574479774102,
+          "stop" : 1574479800698,
+          "duration" : 26596
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "cfb2230b564f16b9.json",
+  "parameterValues" : [ ]
+}

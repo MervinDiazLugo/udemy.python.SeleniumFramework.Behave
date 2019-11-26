@@ -1,0 +1,156 @@
+{
+  "da83afdefa0e1a38390b4912b1ba9dd5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "cfb2230b564f16b9",
+      "reportUrl" : "http://localhost:7000/job/Udemy%20Selenium%20Test/10/allure/#testresult/cfb2230b564f16b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574574628881,
+        "stop" : 1574574646758,
+        "duration" : 17877
+      }
+    }, {
+      "uid" : "d274098a29195a15",
+      "reportUrl" : "http://localhost:7000/job/Udemy%20Selenium%20Test/9/allure/#testresult/d274098a29195a15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574574424700,
+        "stop" : 1574574442764,
+        "duration" : 18064
+      }
+    }, {
+      "uid" : "97f98da9cedac839",
+      "reportUrl" : "http://localhost:7000/job/Udemy%20Selenium%20Test/7/allure/#testresult/97f98da9cedac839",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'send_keys'",
+      "time" : {
+        "start" : 1574479774102,
+        "stop" : 1574479800698,
+        "duration" : 26596
+      }
+    } ]
+  },
+  "0d8b71a76700e4bda4d074939a9e92ca" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "eea5c07c153656a0",
+      "reportUrl" : "http://localhost:7000/job/Udemy%20Selenium%20Test/10/allure/#testresult/eea5c07c153656a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574574610102,
+        "stop" : 1574574627953,
+        "duration" : 17851
+      }
+    }, {
+      "uid" : "8976252dbdd1ace8",
+      "reportUrl" : "http://localhost:7000/job/Udemy%20Selenium%20Test/9/allure/#testresult/8976252dbdd1ace8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574574265343,
+        "stop" : 1574574283339,
+        "duration" : 17996
+      }
+    }, {
+      "uid" : "c48f05d2599895e7",
+      "reportUrl" : "http://localhost:7000/job/Udemy%20Selenium%20Test/8/allure/#testresult/c48f05d2599895e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574574265343,
+        "stop" : 1574574283339,
+        "duration" : 17996
+      }
+    }, {
+      "uid" : "fc6c5dcea06246a2",
+      "reportUrl" : "http://localhost:7000/job/Udemy%20Selenium%20Test/7/allure/#testresult/fc6c5dcea06246a2",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'send_keys'",
+      "time" : {
+        "start" : 1574479745395,
+        "stop" : 1574479772943,
+        "duration" : 27548
+      }
+    } ]
+  },
+  "f572a5f21336749c4470c72eed191364" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "fa30c8b5758a9a70",
+      "reportUrl" : "http://localhost:7000/job/Udemy%20Selenium%20Test/10/allure/#testresult/fa30c8b5758a9a70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574574647650,
+        "stop" : 1574574665634,
+        "duration" : 17984
+      }
+    }, {
+      "uid" : "78eed23b73879e25",
+      "reportUrl" : "http://localhost:7000/job/Udemy%20Selenium%20Test/9/allure/#testresult/78eed23b73879e25",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574574443687,
+        "stop" : 1574574461688,
+        "duration" : 18001
+      }
+    }, {
+      "uid" : "46bb481862ca0662",
+      "reportUrl" : "http://localhost:7000/job/Udemy%20Selenium%20Test/7/allure/#testresult/46bb481862ca0662",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574479801833,
+        "stop" : 1574479820685,
+        "duration" : 18852
+      }
+    } ]
+  },
+  "5a99df7538a4b1ccd21bc5caa5d0f935" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "4062a5e857ca31e1",
+      "reportUrl" : "http://localhost:7000/job/Udemy%20Selenium%20Test/9/allure/#testresult/4062a5e857ca31e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574574405952,
+        "stop" : 1574574423771,
+        "duration" : 17819
+      }
+    }, {
+      "uid" : "329545ba621d2559",
+      "reportUrl" : "http://localhost:7000/job/Udemy%20Selenium%20Test/7/allure/#testresult/329545ba621d2559",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574573995721,
+        "stop" : 1574574013567,
+        "duration" : 17846
+      }
+    } ]
+  }
+}

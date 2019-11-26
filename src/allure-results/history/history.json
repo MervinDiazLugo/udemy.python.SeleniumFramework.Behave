@@ -1,0 +1,63 @@
+{
+  "527a9af6439682b9be474691b0c1fcf6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9f61952608703598",
+      "reportUrl" : "http://localhost:7000/job/Python.Selenium.Behave/1/allure/#testresult/9f61952608703598",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574740956336,
+        "stop" : 1574740963785,
+        "duration" : 7449
+      }
+    } ]
+  },
+  "c2b09bee9d0183f22b1dcb68f76bb6b5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3c6b5d5aacd8587a",
+      "reportUrl" : "http://localhost:7000/job/Python.Selenium.Behave/1/allure/#testresult/3c6b5d5aacd8587a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n",
+      "time" : {
+        "start" : 1574740963786,
+        "stop" : 1574740963794,
+        "duration" : 8
+      }
+    } ]
+  },
+  "479aa6cb7558684e95f19cd23542946d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "15043d7f3785762a",
+      "reportUrl" : "http://localhost:7000/job/Python.Selenium.Behave/1/allure/#testresult/15043d7f3785762a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574740946754,
+        "stop" : 1574740956335,
+        "duration" : 9581
+      }
+    } ]
+  }
+}

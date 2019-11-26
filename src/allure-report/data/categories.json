@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n",
+      "children" : [ {
+        "name" : "Abrir con Navegador",
+        "uid" : "bb16f14b1cc415cd",
+        "parentUid" : "e50b224c1246e3b5a6b00cf69766e48f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1574741048963,
+          "stop" : 1574741048969,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e50b224c1246e3b5a6b00cf69766e48f"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

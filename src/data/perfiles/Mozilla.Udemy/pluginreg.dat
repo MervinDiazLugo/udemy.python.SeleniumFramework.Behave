@@ -1,0 +1,15 @@
+Generated File. Do not edit.
+
+[HEADER]
+Version|0.19t|$
+Arch|x86_64-msvc|$
+
+[PLUGINS]
+
+[INVALID]
+C:\Program Files\Microsoft Office\root\Office16\NPSPWRAP.DLL|$
+1563408462906|$
+C:\Program Files\Java\jre1.8.0_211\bin\plugin2\npjp2.dll|$
+1558737155351|$
+C:\Program Files\Java\jre1.8.0_211\bin\dtplugin\npdeployJava1.dll|$
+1558737155166|$

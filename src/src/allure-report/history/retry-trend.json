@@ -1,0 +1,33 @@
+[ {
+  "buildOrder" : 10,
+  "reportUrl" : "http://localhost:7000/job/Udemy%20Selenium%20Test/10/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 3,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 9,
+  "reportUrl" : "http://localhost:7000/job/Udemy%20Selenium%20Test/9/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 4,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 8,
+  "reportUrl" : "http://localhost:7000/job/Udemy%20Selenium%20Test/8/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 1,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 7,
+  "reportUrl" : "http://localhost:7000/job/Udemy%20Selenium%20Test/7/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 4,
+    "retry" : 3
+  }
+} ]

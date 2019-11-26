@@ -1,0 +1,113 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Funciones basicas de selenium con BDD",
+    "children" : [ {
+      "name" : "Abrir el navegador",
+      "uid" : "f41cd7d702bf667",
+      "parentUid" : "e09c700914c41b111a764f478d96dbab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574741032562,
+        "stop" : 1574741041855,
+        "duration" : 9293
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Abrir url",
+      "uid" : "861c891488f47e0f",
+      "parentUid" : "e09c700914c41b111a764f478d96dbab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574741041856,
+        "stop" : 1574741048961,
+        "duration" : 7105
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Abrir con Navegador",
+      "uid" : "bb16f14b1cc415cd",
+      "parentUid" : "e09c700914c41b111a764f478d96dbab",
+      "status" : "broken",
+      "time" : {
+        "start" : 1574741048963,
+        "stop" : 1574741048969,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Setear el DOM y trabajar con el",
+      "uid" : "3db6803580309fb0",
+      "parentUid" : "e09c700914c41b111a764f478d96dbab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574741048970,
+        "stop" : 1574741062332,
+        "duration" : 13362
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Tomar capturas de pantalla",
+      "uid" : "a70a35eaef5867e",
+      "parentUid" : "e09c700914c41b111a764f478d96dbab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574741062333,
+        "stop" : 1574741073500,
+        "duration" : 11167
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Dropdowns y textbox",
+      "uid" : "f581e266695bb93b",
+      "parentUid" : "e09c700914c41b111a764f478d96dbab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574741073502,
+        "stop" : 1574741084238,
+        "duration" : 10736
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "clics Frames y Ventanas",
+      "uid" : "402207c4dacf295d",
+      "parentUid" : "e09c700914c41b111a764f478d96dbab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574741084239,
+        "stop" : 1574741094148,
+        "duration" : 9909
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Buscar por texto scroll y waits",
+      "uid" : "6f540483336a3e29",
+      "parentUid" : "e09c700914c41b111a764f478d96dbab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574741094149,
+        "stop" : 1574741113491,
+        "duration" : 19342
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e09c700914c41b111a764f478d96dbab"
+  } ]
+}
