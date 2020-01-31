@@ -24,11 +24,29 @@ class Inicializar():
         URL = 'https://www.spotify.com/py/signup/'
         User = 'mdiaz'
         Pass = 'Mm121666'
+
+        #DATABASE CATALOG
         DB_HOST = 'localhost'
         DB_PORT = '5432'
         DB_DATABASE = 'curso_api'
         DB_USER = 'postgres'
         DB_PASS = 'postgres'
+
+        # JsonData
+        Json = basedir + u"\pages"
+        JsonResponseData = basedir + u"\data\json"
+
+        # API
+        API_hostAddressBase = "https://petstore.swagger.io/v2/"
+        API_User = "webapi"
+        API_Pass = "suipacha"
+
+        API_headers = {
+            'version': '1.0-preview.1',
+            'content-type': 'application/json',
+        }
+
+        API_body = {}
 
 
     if Environment == 'Test':

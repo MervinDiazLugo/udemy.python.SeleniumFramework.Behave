@@ -31,7 +31,7 @@ class test_004(Selenium, unittest.TestCase):
         Selenium.get_elements(self, "Nombre").send_keys("Mervin Díaz")
 
         Selenium.get_select_elements(self, "Mes de Nacimiento").select_by_visible_text("enero")
-
+        
         time.sleep(5)
 
     def tearDown(self):
