@@ -2,105 +2,196 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
   "children" : [ {
-    "name" : "Tomar capturas de pantalla",
-    "uid" : "a70a35eaef5867e",
+    "name" : "Put - Update user password InternalUser vs InternalUser",
+    "uid" : "8c1f475e8b1d0263",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
+    "status" : "broken",
     "time" : {
-      "start" : 1574741062333,
-      "stop" : 1574741073500,
-      "duration" : 11167
+      "start" : 1583808723173,
+      "stop" : 1583808723950,
+      "duration" : 777
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "Abrir url",
-    "uid" : "861c891488f47e0f",
+    "name" : "Put Recovery Password - try Recovery with no admin user",
+    "uid" : "3bc6418f122a7483",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
+    "status" : "broken",
     "time" : {
-      "start" : 1574741041856,
-      "stop" : 1574741048961,
-      "duration" : 7105
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Abrir el navegador",
-    "uid" : "f41cd7d702bf667",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1574741032562,
-      "stop" : 1574741041855,
-      "duration" : 9293
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Buscar por texto scroll y waits",
-    "uid" : "6f540483336a3e29",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1574741094149,
-      "stop" : 1574741113491,
-      "duration" : 19342
+      "start" : 1583808722366,
+      "stop" : 1583808723171,
+      "duration" : 805
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Abrir con Navegador",
-    "uid" : "bb16f14b1cc415cd",
+    "uid" : "808b419c216eb793",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "broken",
     "time" : {
-      "start" : 1574741048963,
-      "stop" : 1574741048969,
-      "duration" : 6
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Setear el DOM y trabajar con el",
-    "uid" : "3db6803580309fb0",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1574741048970,
-      "stop" : 1574741062332,
-      "duration" : 13362
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "clics Frames y Ventanas",
-    "uid" : "402207c4dacf295d",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1574741084239,
-      "stop" : 1574741094148,
-      "duration" : 9909
+      "start" : 1583808642341,
+      "stop" : 1583808642446,
+      "duration" : 105
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Dropdowns y textbox",
-    "uid" : "f581e266695bb93b",
+    "uid" : "4ac0ec4c3e846443",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1574741073502,
-      "stop" : 1574741084238,
-      "duration" : 10736
+      "start" : 1583808674245,
+      "stop" : 1583808686310,
+      "duration" : 12065
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Buscar por texto scroll y waits",
+    "uid" : "45a5a2730597e635",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1583808699011,
+      "stop" : 1583808720517,
+      "duration" : 21506
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Setear el DOM y trabajar con el",
+    "uid" : "133a57307b178462",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1583808642447,
+      "stop" : 1583808655910,
+      "duration" : 13463
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Retrieve pet information by Id",
+    "uid" : "753090682f4ecc48",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1583808721608,
+      "stop" : 1583808722364,
+      "duration" : 756
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Abrir url",
+    "uid" : "3735def2fdeb97b9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1583808635122,
+      "stop" : 1583808642339,
+      "duration" : 7217
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Tomar capturas de pantalla",
+    "uid" : "5a3118f9594058f4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1583808655913,
+      "stop" : 1583808674243,
+      "duration" : 18330
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Put - Update user password InternalUser vs InternalUser compare",
+    "uid" : "e1530c7f13d606a4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1583808723951,
+      "stop" : 1583808724709,
+      "duration" : 758
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login with Webapi",
+    "uid" : "b4e4fdd27652d1e8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1583808720519,
+      "stop" : 1583808721606,
+      "duration" : 1087
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Post Clone - Clone a user",
+    "uid" : "e6c3aaa62ae41b40",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1583808724713,
+      "stop" : 1583808725491,
+      "duration" : 778
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "clics Frames y Ventanas",
+    "uid" : "dcd6ee780e1d3f64",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1583808686313,
+      "stop" : 1583808699010,
+      "duration" : 12697
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Abrir el navegador",
+    "uid" : "eed111c52dfc5f1f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1583808623978,
+      "stop" : 1583808635121,
+      "duration" : 11143
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Post Clone - Clone a user compare results",
+    "uid" : "c06bd9cab3ac720e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1583808725495,
+      "stop" : 1583808726328,
+      "duration" : 833
     },
     "flaky" : false,
     "newFailed" : false,

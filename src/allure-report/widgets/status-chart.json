@@ -1,81 +1,151 @@
 [ {
-  "uid" : "bb16f14b1cc415cd",
-  "name" : "Abrir con Navegador",
+  "uid" : "dcd6ee780e1d3f64",
+  "name" : "clics Frames y Ventanas",
   "time" : {
-    "start" : 1574741048963,
-    "stop" : 1574741048969,
-    "duration" : 6
+    "start" : 1583808686313,
+    "stop" : 1583808699010,
+    "duration" : 12697
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3735def2fdeb97b9",
+  "name" : "Abrir url",
+  "time" : {
+    "start" : 1583808635122,
+    "stop" : 1583808642339,
+    "duration" : 7217
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4ac0ec4c3e846443",
+  "name" : "Dropdowns y textbox",
+  "time" : {
+    "start" : 1583808674245,
+    "stop" : 1583808686310,
+    "duration" : 12065
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e6c3aaa62ae41b40",
+  "name" : "Post Clone - Clone a user",
+  "time" : {
+    "start" : 1583808724713,
+    "stop" : 1583808725491,
+    "duration" : 778
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "6f540483336a3e29",
-  "name" : "Buscar por texto scroll y waits",
+  "uid" : "3bc6418f122a7483",
+  "name" : "Put Recovery Password - try Recovery with no admin user",
   "time" : {
-    "start" : 1574741094149,
-    "stop" : 1574741113491,
-    "duration" : 19342
+    "start" : 1583808722366,
+    "stop" : 1583808723171,
+    "duration" : 805
   },
-  "status" : "passed",
+  "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "f41cd7d702bf667",
-  "name" : "Abrir el navegador",
-  "time" : {
-    "start" : 1574741032562,
-    "stop" : 1574741041855,
-    "duration" : 9293
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "861c891488f47e0f",
-  "name" : "Abrir url",
-  "time" : {
-    "start" : 1574741041856,
-    "stop" : 1574741048961,
-    "duration" : 7105
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f581e266695bb93b",
-  "name" : "Dropdowns y textbox",
-  "time" : {
-    "start" : 1574741073502,
-    "stop" : 1574741084238,
-    "duration" : 10736
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "402207c4dacf295d",
-  "name" : "clics Frames y Ventanas",
-  "time" : {
-    "start" : 1574741084239,
-    "stop" : 1574741094148,
-    "duration" : 9909
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3db6803580309fb0",
-  "name" : "Setear el DOM y trabajar con el",
-  "time" : {
-    "start" : 1574741048970,
-    "stop" : 1574741062332,
-    "duration" : 13362
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a70a35eaef5867e",
+  "uid" : "5a3118f9594058f4",
   "name" : "Tomar capturas de pantalla",
   "time" : {
-    "start" : 1574741062333,
-    "stop" : 1574741073500,
-    "duration" : 11167
+    "start" : 1583808655913,
+    "stop" : 1583808674243,
+    "duration" : 18330
   },
   "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eed111c52dfc5f1f",
+  "name" : "Abrir el navegador",
+  "time" : {
+    "start" : 1583808623978,
+    "stop" : 1583808635121,
+    "duration" : 11143
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1530c7f13d606a4",
+  "name" : "Put - Update user password InternalUser vs InternalUser compare",
+  "time" : {
+    "start" : 1583808723951,
+    "stop" : 1583808724709,
+    "duration" : 758
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "753090682f4ecc48",
+  "name" : "Retrieve pet information by Id",
+  "time" : {
+    "start" : 1583808721608,
+    "stop" : 1583808722364,
+    "duration" : 756
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "45a5a2730597e635",
+  "name" : "Buscar por texto scroll y waits",
+  "time" : {
+    "start" : 1583808699011,
+    "stop" : 1583808720517,
+    "duration" : 21506
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "808b419c216eb793",
+  "name" : "Abrir con Navegador",
+  "time" : {
+    "start" : 1583808642341,
+    "stop" : 1583808642446,
+    "duration" : 105
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c06bd9cab3ac720e",
+  "name" : "Post Clone - Clone a user compare results",
+  "time" : {
+    "start" : 1583808725495,
+    "stop" : 1583808726328,
+    "duration" : 833
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "133a57307b178462",
+  "name" : "Setear el DOM y trabajar con el",
+  "time" : {
+    "start" : 1583808642447,
+    "stop" : 1583808655910,
+    "duration" : 13463
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4e4fdd27652d1e8",
+  "name" : "Login with Webapi",
+  "time" : {
+    "start" : 1583808720519,
+    "stop" : 1583808721606,
+    "duration" : 1087
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c1f475e8b1d0263",
+  "name" : "Put - Update user password InternalUser vs InternalUser",
+  "time" : {
+    "start" : 1583808723173,
+    "stop" : 1583808723950,
+    "duration" : 777
+  },
+  "status" : "broken",
   "severity" : "normal"
 } ]

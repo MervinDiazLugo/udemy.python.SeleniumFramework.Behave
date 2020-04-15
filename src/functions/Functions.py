@@ -181,6 +181,9 @@ class Functions(Inicializar):
                 if self.json_GetFieldBy.lower() == "css":
                     elements = self.driver.find_element_by_css_selector(self.json_ValueToFind)
 
+                if self.json_GetFieldBy.lower() == "class":
+                    elements = self.driver.find_element_by_class_name(self.json_ValueToFind)
+
                 print("get_elements: " + self.json_ValueToFind)
                 return elements
 
@@ -915,24 +918,6 @@ class Functions(Inicializar):
         print(Scenario)
         print("Se almaceno el valor " + variable + " : " + Scenario[variable])
 
-    def extract_process_number(self):
-        try:
-            element_text = str(Functions.get_text(self, "Process Number"))
-            PatronDeBusqueda = r"(?<=Id: )\w+"
-            variables = re.findall(str(PatronDeBusqueda), element_text, re.IGNORECASE)
-            Scenario['btprcnro'] = str(variables[0])
-            print("Se almaceno el btprcnro= " + Scenario['btprcnro'])
-            return Scenario['btprcnro']
-
-        except AttributeError:
-            self._endpoint = Functions.get_full_host(self,
-                                                     "Processes/MonitorInstances?dateFrom=Scenario:today&orderBy=TenantProcessId-desc")
-            self._response = Functions.do_a_get(self)
-            self.json_response = json.loads(self._response.text)
-            Scenario['btprcnro'] = str(self.json_response[0]["Id"])
-            print("Se almaceno el btprcnro= " + Scenario['btprcnro'])
-            return Scenario['btprcnro']
-
     def compare_with_variable_scenary(self, element, variable):
         variable_scenary = str(Scenario[variable])
         element_text = str(Functions.get_text(self, element))
@@ -1096,6 +1081,49 @@ class Functions(Inicializar):
     ##########################################################################
     ##############   -=_ASSERTION_=-   #######################################
     ##########################################################################
+
+    def validar_elemento(self, locator):
+
+        Get_Entity = Functions.get_entity(self, locator)
+
+        TIME_OUT = 10
+
+        if Get_Entity is None:
+            return print("No se encontro el valor en el Json definido")
+        else:
+            try:
+                if self.json_GetFieldBy.lower() == "id":
+                    wait = WebDriverWait(self.driver, TIME_OUT)
+                    wait.until(EC.visibility_of_element_located((By.ID, self.json_ValueToFind)))
+                    wait.until(EC.element_to_be_clickable((By.ID, self.json_ValueToFind)))
+                    print(u"Esperar_Elemento: Se visualizo el elemento " + locator)
+                    return True
+
+                if self.json_GetFieldBy.lower() == "name":
+                    wait = WebDriverWait(self.driver, TIME_OUT)
+                    wait.until(EC.visibility_of_element_located((By.NAME, self.json_ValueToFind)))
+                    wait.until(EC.element_to_be_clickable((By.NAME, self.json_ValueToFind)))
+                    print(u"Esperar_Elemento: Se visualizo el elemento " + locator)
+                    return True
+
+                if self.json_GetFieldBy.lower() == "xpath":
+                    wait = WebDriverWait(self.driver, TIME_OUT)
+                    wait.until(EC.visibility_of_element_located((By.XPATH, self.json_ValueToFind)))
+                    wait.until(EC.element_to_be_clickable((By.XPATH, self.json_ValueToFind)))
+                    print(u"Esperar_Elemento: Se visualizo el elemento " + locator)
+                    return True
+
+                if self.json_GetFieldBy.lower() == "link":
+                    wait = WebDriverWait(self.driver, TIME_OUT)
+                    wait.until(EC.visibility_of_element_located((By.PARTIAL_LINK_TEXT, self.json_ValueToFind)))
+                    wait.until(EC.element_to_be_clickable((By.PARTIAL_LINK_TEXT, self.json_ValueToFind)))
+                    print(u"Esperar_Elemento: Se visualizo el elemento " + locator)
+                    return True
+
+            except TimeoutException:
+                print(u"Assert_xpath: Elemento No presente " + locator)
+                return False
+
 
     def assert_xpath(self, xpath):
         try:
@@ -1357,16 +1385,16 @@ class Functions(Inicializar):
         self.json_response = json.loads(self._response.text)
         print(self.json_response[int(path)][entity])
 
-    def assert_response_expected(self, entity, expected):
+    def assert_response_expected(self, entity, expected, subPath = 0):
         self.json_response = json.loads(self._response.text)
         PATH_VALUE = self.json_response[entity]
+        list =  isinstance(PATH_VALUE, list)
+        dict = isinstance(PATH_VALUE, dict)
+        if list:
+            PATH_VALUE = self.json_response[entity][int(subPath)]
 
-        Validar =  isinstance(response, list)
-        print(Validar)
-        if Validar:
-            text = re.sub('([^&.]+)', [], self.json_response[entity], re.IGNORECASE)
-            print(text)
-
+        if dict:
+            PATH_VALUE = self.json_response[entity][subPath]
 
         assert str(PATH_VALUE) == expected, f"El valor no es el esperado: {PATH_VALUE} != {expected}"
 
@@ -1435,7 +1463,6 @@ class Functions(Inicializar):
             pytest.skip(u"get_json_file: No se encontro el Archivo " + file)
 
     def set_initial_json_body(self, file):
-
         self.New_Body = Functions.get_json_inData(self, file)
         Inicializar.API_body = self.New_Body
         print(Inicializar.API_body)

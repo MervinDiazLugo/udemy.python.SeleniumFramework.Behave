@@ -1,33 +1,34 @@
-# -*- coding: utf-8 -*-
-from src.functions.Functions import Functions as Selenium
-from src.pages.Spotify_registro import Registro
 import unittest
-import time
+import pytest
 
-
-class test_003(Selenium, unittest.TestCase):
+class test_002(unittest.TestCase):
 
     def setUp(self):
-        Selenium.abrir_navegador(self)
-
-    def test_003(self):
-
-        assert Selenium.xpath_element(self, Registro.lbl_titulo_xpath).text == "Regístrate con tu dirección de email"
-        print (Selenium.xpath_element(self, Registro.lbl_titulo_xpath).text)
-
-        Selenium.xpath_element(self, Registro.txt_email_xpath).send_keys("mervindiazlugo@gmail.com")
-        Selenium.xpath_element(self, Registro.txt_email_confirm_xpath).send_keys("mervindiazlugo@gmail.com")
+        pass
 
 
-        Selenium._id_element(self, Registro.txt_password_id).send_keys("Mmxxx20000")
+    def test_comparacion(self):
+        self.Variable_A = 51
+        self.Variable_B = 50
 
-        Selenium._id_element(self, Registro.txt_nombre_id).send_keys("Mervin Udemy")
+        assert self.Variable_A != self.Variable_B, "Los valores son distintos"
 
-        time.sleep(5)
+    def test_004(self):
+        self.Variable_A = 2
+
+        if self.Variable_A < 3:
+            pytest.skip("El valor es muy inferior para ejecutar la prueba")
+
+        if self.Variable_A >= 10:
+            self.Resultado = True
+
+        else:
+            self.Resultado = False
+
+        assert self.Resultado, f"El valor no es mayor es: {self.Variable_A}"
 
     def tearDown(self):
-        Selenium.tearDown(self)
-
+        pass
 
 if __name__ == '__main__':
     unittest.main()

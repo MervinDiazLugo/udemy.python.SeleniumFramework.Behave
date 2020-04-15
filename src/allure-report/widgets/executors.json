@@ -2,9 +2,9 @@
   "name" : "Jenkins",
   "type" : "jenkins",
   "url" : "http://localhost:7000/",
-  "buildOrder" : 2,
-  "buildName" : "udemy.python.SeleniumFramework.Behave #2",
-  "buildUrl" : "http://localhost:7000/job/Python.Selenium.Behave/2/",
+  "buildOrder" : 3,
+  "buildName" : "udemy.python.SeleniumFramework.Behave #3",
+  "buildUrl" : "http://localhost:7000/job/Python.Selenium.Behave/3/",
   "reportName" : "AllureReport",
-  "reportUrl" : "http://localhost:7000/job/Python.Selenium.Behave/2/allure"
+  "reportUrl" : "http://localhost:7000/job/Python.Selenium.Behave/3/allure"
 } ]

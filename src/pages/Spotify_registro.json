@@ -19,6 +19,28 @@
     "ValueToFind": "//input[@name='signup_form[email]']"
   },
 
+   "Mensaje Email": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": " //label[contains(@class,'has-error')]"
+  },
+
+
+   "iframe Captcha": {
+    "GetFieldBy": "id",
+    "ValueToFind": "a-12g0ldri4j5"
+  },
+
+  "Captcha": {
+    "GetFieldBy": "id",
+    "ValueToFind": "rc-anchor-container"
+  },
+
+  "Contenedor Captcha": {
+    "GetFieldBy": "id",
+    "ValueToFind": "captcha-div"
+  },
+
+
   "Email Confirmacion": {
     "GetFieldBy": "Xpath",
     "ValueToFind": "//input[@name='signup_form[confirm_email]']"
@@ -47,6 +69,10 @@
   "text":{
     "GetFieldBy": "xpath",
     "ValueToFind": "//*[contains(text(), '{}')]"
-  }
+  },
 
+  "Notice": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//p[contains(@class,'notice')]"
+  }
 }

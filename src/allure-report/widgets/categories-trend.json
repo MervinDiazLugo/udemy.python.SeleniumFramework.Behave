@@ -1,4 +1,12 @@
 [ {
+  "buildOrder" : 3,
+  "reportUrl" : "http://localhost:7000/job/Python.Selenium.Behave/3/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 2,
+    "Test defects" : 6
+  }
+}, {
   "buildOrder" : 2,
   "reportUrl" : "http://localhost:7000/job/Python.Selenium.Behave/2/allure",
   "reportName" : "AllureReport",

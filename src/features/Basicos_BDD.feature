@@ -62,3 +62,13 @@ Feature: Funciones basicas de selenium con BDD
      And Espero 8 segundos
      And Esperar que finalice la carga
      Then cierro la app
+
+  Scenario: Skip Test
+    Given Abrir la aplicacion
+    And Cargo el DOM de la App: Spotify_registro
+    And En el campo Email escribo mervindiazlugo@gmail.com
+    And Hago clic en Email Confirmacion
+    And Verifico si Captcha esta presente
+    Then cierro la app
+
+        #And Verifico en texto Lo sentimos, este correo ya está registrado.

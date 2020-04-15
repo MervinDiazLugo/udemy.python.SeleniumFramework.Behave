@@ -7,20 +7,123 @@
       "name" : "selenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH. \n\n",
       "children" : [ {
         "name" : "Abrir con Navegador",
-        "uid" : "bb16f14b1cc415cd",
+        "uid" : "808b419c216eb793",
         "parentUid" : "e50b224c1246e3b5a6b00cf69766e48f",
         "status" : "broken",
         "time" : {
-          "start" : 1574741048963,
-          "stop" : 1574741048969,
-          "duration" : 6
+          "start" : 1583808642341,
+          "stop" : 1583808642446,
+          "duration" : 105
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
       "uid" : "e50b224c1246e3b5a6b00cf69766e48f"
+    }, {
+      "name" : "json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n",
+      "children" : [ {
+        "name" : "Put Recovery Password - try Recovery with no admin user",
+        "uid" : "3bc6418f122a7483",
+        "parentUid" : "e517517ead10d6e3162bd65cce899cb6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583808722366,
+          "stop" : 1583808723171,
+          "duration" : 805
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Put - Update user password InternalUser vs InternalUser",
+        "uid" : "8c1f475e8b1d0263",
+        "parentUid" : "e517517ead10d6e3162bd65cce899cb6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583808723173,
+          "stop" : 1583808723950,
+          "duration" : 777
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Put - Update user password InternalUser vs InternalUser compare",
+        "uid" : "e1530c7f13d606a4",
+        "parentUid" : "e517517ead10d6e3162bd65cce899cb6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583808723951,
+          "stop" : 1583808724709,
+          "duration" : 758
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Post Clone - Clone a user",
+        "uid" : "e6c3aaa62ae41b40",
+        "parentUid" : "e517517ead10d6e3162bd65cce899cb6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583808724713,
+          "stop" : 1583808725491,
+          "duration" : 778
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Post Clone - Clone a user compare results",
+        "uid" : "c06bd9cab3ac720e",
+        "parentUid" : "e517517ead10d6e3162bd65cce899cb6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583808725495,
+          "stop" : 1583808726328,
+          "duration" : 833
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e517517ead10d6e3162bd65cce899cb6"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError\n",
+      "children" : [ {
+        "name" : "Login with Webapi",
+        "uid" : "b4e4fdd27652d1e8",
+        "parentUid" : "a730cf0b0a23aabea6d11aa0391c8a76",
+        "status" : "failed",
+        "time" : {
+          "start" : 1583808720519,
+          "stop" : 1583808721606,
+          "duration" : 1087
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Retrieve pet information by Id",
+        "uid" : "753090682f4ecc48",
+        "parentUid" : "a730cf0b0a23aabea6d11aa0391c8a76",
+        "status" : "failed",
+        "time" : {
+          "start" : 1583808721608,
+          "stop" : 1583808722364,
+          "duration" : 756
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a730cf0b0a23aabea6d11aa0391c8a76"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
 }

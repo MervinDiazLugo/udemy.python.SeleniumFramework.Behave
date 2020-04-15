@@ -3,21 +3,22 @@ Feature: Test WebApi
 
   @WebApi
   Scenario: Login with Webapi
-    Given I connect with endpoint pet/5
+    Given I connect with endpoint pet/11
 	#And I do API login with Admin credentials
     When I do a Get
     And I print out the results of the response
     Then The api response is 200 Ok
 
    Scenario: Retrieve pet information by Id
-    Given I connect with endpoint pet/5
+    Given I connect with endpoint pet/21
 	#And I do API login with Admin credentials
     When I do a Get
     And I print out the results of the response
     Then The api response is 200 Ok
-    And I assert response in entity name is Charlie
-    And I assert response in entity id is 5
-    And I assert response in entity photoUrls[0] is url2
+    And I assert response in entity name is Mervin
+    And I assert response in entity id is 21
+    And I assert that response in entity photoUrls path 0 is string
+    And I assert that response in entity tags path 0 is {'id': 5, 'name': 'Animal'}
 
   @WebApi
   Scenario: Put Recovery Password - try Recovery with no admin user
